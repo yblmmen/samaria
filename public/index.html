@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>계정 생성</title>
+</head>
+<body>
+    <div id="message"></div> <!-- 동적 메시지를 표시할 요소 -->
+    <div class="container">
+        <h2>계정 생성</h2>
+        <form id="createAccountForm">
+            <input type="text" id="username" name="username" placeholder="ID (사용자 이름)" required><br>
+            <input type="password" id="password" name="password" placeholder="패스워드" required><br>
+            <input type="submit" value="생성">
+        </form>
+        <button onclick="location.href='downloadLink'">접속기 다운로드</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
